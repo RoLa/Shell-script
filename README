@@ -1,0 +1,28 @@
+# First form
+
+if condition ; then
+    commands
+fi
+
+# Second form
+
+if condition ; then
+    commands
+else
+    commands
+fi
+
+# Third form
+
+if condition ; then
+    commands
+elif condition ; then
+    commands
+fi
+       
+
+In the first form, if the condition is true, then commands are performed. If the condition is false, nothing is done.
+
+In the second form, if the condition is true, then the first set of commands is performed. If the condition is false, the second set of commands is performed.
+
+In the third form, if the condition is true, then the first set of commands is performed. If the condition is false, and if the second condition is true, then the second set of commands is performed.
